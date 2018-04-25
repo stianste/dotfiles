@@ -10,6 +10,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-surround'
 Plugin 'kien/ctrlp.vim'
 Plugin 'SirVer/ultisnips'
+Plugin 'honza/vim-snippets'
 Plugin 'tomtom/tcomment_vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
@@ -124,3 +125,11 @@ noremap  <Leader>g :GitGutterToggle<CR>
 let g:gitgutter_sign_added = '+'
 let g:gitgutter_sign_modified = 'Δ'
 let g:gitgutter_sign_removed = '✘'
+
+" UltiSnips
+let g:UltiSnipsExpandTrigger="<c-Space>"
+let g:UltiSnipsJumpForwardTrigger="<c-y>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
+" :UltiSnipsEdit split window.
+let g:UltiSnipsEditSplit="vertical"
