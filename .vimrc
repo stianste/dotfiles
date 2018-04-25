@@ -31,7 +31,7 @@ call vundle#end()
 " Appearance related
 "
 
-colorscheme quantum
+colorscheme gruvbox
 " Good alternatives: Monokai, gruvbox, quantum, Tomorrow-Night
 
 set background=dark "Setting dark mode
@@ -81,9 +81,6 @@ set ruler
 
 set list
 set listchars=tab:▒░,trail:▓
-
-" Let command-mode behave like normal bash
-set shellcmdflag=-ic
 
 " Use graphical line movements
 noremap j gj
