@@ -82,6 +82,9 @@ set ruler
 set list
 set listchars=tab:▒░,trail:▓
 
+" Let command-mode behave like normal bash
+set shellcmdflag=-ic
+
 " Use graphical line movements
 noremap j gj
 noremap k gk
