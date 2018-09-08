@@ -38,9 +38,9 @@ set background=dark "Setting dark mode
 
 set t_ut= "Fixes trouble with tmux background
 
-if (has("termguicolors"))
-  set termguicolors
-endif
+" if (has("termguicolors"))
+"   set termguicolors
+" endif
 
 "
 " Spacing
