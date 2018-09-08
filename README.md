@@ -7,7 +7,7 @@ when working on Linux systems.
 
 ## General
 ### Fonts
-I usually use the `Hack` font which can be found [here.](https://github.com/powerline/fonts)
+I usually use the `Hack` font which can be found [here.](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hack#quick-installation)
 
 ## Notes
 ### Installing the nvidia driver
