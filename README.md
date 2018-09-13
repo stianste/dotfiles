@@ -29,3 +29,8 @@ are some good sources for this that might help:
 
 * [Changing the grub file](https://askubuntu.com/questions/866437/function-keys-do-not-work-brightness-sound-ubuntu-16-04)
 
+### Nice-to-have commands
+Scale display with Ubuntu 18 on unity
+`xrandr --output eDP-1 --scale 1.25x1.25`
+
+(To find the current display run `xrandr --verbose`)
