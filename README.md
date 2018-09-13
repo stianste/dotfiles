@@ -5,6 +5,10 @@ git, tmux etc. This readme also contains some notes and nice-to-have
 discussions for when things go wrong, as well as experiences made
 when working on Linux systems.
 
+## General
+### Fonts
+I usually use the `Hack` font which can be found [here.](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hack#quick-installation)
+
 ## Notes
 ### Installing the nvidia driver
 ... can be a mess, but it can also be alright. Usually the following
