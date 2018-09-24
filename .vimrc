@@ -7,6 +7,7 @@ Plugin 'VundleVim/Vundle.vim'
 
 " ------Plugins-------
 Plugin 'scrooloose/nerdtree'
+Plugin 'ryanoasis/vim-devicons'
 Plugin 'tpope/vim-surround'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'kien/ctrlp.vim'
@@ -31,7 +32,7 @@ call vundle#end()
 " Appearance related
 "
 
-colorscheme gruvbox
+colorscheme Tomorrow-Night-Eighties
 " Good alternatives: Monokai, gruvbox, quantum, Tomorrow-Night
 
 set background=dark "Setting dark mode
@@ -117,7 +118,7 @@ let g:ycm_server_use_vim_stdout = 0
 let g:ycm_path_to_python_interpreter = '/usr/bin/python'
 
 " vim-airline
-let g:airline_theme='badwolf'
+let g:airline_theme='gruvbox'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
 

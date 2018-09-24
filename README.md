@@ -23,18 +23,23 @@ Then reboot the device. After rebooting run:
 
 This solution was found [here](https://askubuntu.com/questions/1028830/how-do-i-install-cuda-on-ubuntu-18-04)
 
-The next problem after doing this was that the computer tends to use a
-lot more power than neccesary. After running the Nvidia settings
-program and changing the default grapics to the integrated intel card,
-the F-buttons stopped working. I have not solved this yet, but here
-are some good sources for this that might help:
-
 * [How to use grapics card for CUDA but Intel otherwise](https://gist.github.com/alexlee-gk/76a409f62a53883971a18a11af93241b)
 
 * [Changing the grub file](https://askubuntu.com/questions/866437/function-keys-do-not-work-brightness-sound-ubuntu-16-04)
 
+To switch between the integrated graphics and the Nvidia card run either
+`sudo prime-select nvidia` or `sudo prime-select intel`. To check what
+card is being used run `prime-select query`.
+
+### Power consumption
+To monitor the power consumption run `sudo powertop`.
+If docker is using a lot of power it can be shut down using `sudo service docker stop`
+followed by running `sudo ip link set docker0 down`
+
 ### Nice-to-have commands
 Scale display with Ubuntu 18 on unity
-`xrandr --output eDP-1 --scale 1.25x1.25`
+`xrandr --output eDP-1 --scale 1.25x1.25 --panning 3750x2500`
 
-(To find the current display run `xrandr --verbose`)
+Where the panning is the screen size times the scaling
+- used to remove the invisible mouse boarder - and eDP-1 is the display.
+To find the current display run `xrandr --verbose`
