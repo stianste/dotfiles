@@ -9,6 +9,10 @@ when working on Linux systems.
 ### Fonts
 I usually use the `Hack` font which can be found [here.](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hack#quick-installation)
 
+### Viewing Markdown locally
+To view Markdown locally I use [grip](https://github.com/joeyespo/grip). It can be installed
+by running `pip3 install grip` and then `grip path/to/file.md`.
+
 ## Notes
 ### Installing the nvidia driver
 ... can be a mess, but it can also be alright. Usually the following
