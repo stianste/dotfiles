@@ -32,7 +32,7 @@ call vundle#end()
 " Appearance related
 "
 
-colorscheme Tomorrow-Night-Eighties
+colorscheme gruvbox" Tomorrow-Night-Eighties
 " Good alternatives: Monokai, gruvbox, quantum, Tomorrow-Night
 
 set background=dark "Setting dark mode

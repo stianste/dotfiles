@@ -49,6 +49,12 @@ To monitor the power consumption run `sudo powertop`.
 If docker is using a lot of power it can be shut down using `sudo service docker stop`
 followed by running `sudo ip link set docker0 down`
 
+In order to see what power setting each core is set to, run
+`cat /sys/devices/system/cpu/cpufreq/policy*/energy_performance_preference`
+In order to set them all to i.e performance, run
+`echo performance | sudo tee /sys/devices/system/cpu/cpufreq/policy*/energy_performance_preference`
+Default is `balance_performance`
+
 ### Nice-to-have commands
 Scale display with Ubuntu 18 on unity
 `xrandr --output eDP-1 --scale 1.25x1.25 --panning 3750x2500`
