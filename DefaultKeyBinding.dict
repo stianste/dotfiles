@@ -1,0 +1,8 @@
+{
+  "^j"       = "moveDown:";
+  "^J"       = "moveDown:";
+  "^k"       = "moveUp:";
+  "^K"       = "moveUp:";
+  "@d"       = "@l";
+  "^\U0008"  = "deleteWordBackward";
+}
