@@ -1,0 +1,16 @@
+# Specific apps and web pages
+shift + cmd - s : open /Applications/Slack.app
+shift + cmd - k : open /Applications/IntelliJ\ IDEA.app
+shift + cmd - i : open /Applications/iTerm\ 2.app
+shift + cmd - e : open /Applications/Arc.app
+shift + cmd - g : open https://www.geoguessr.com/parties
+shift + cmd - p : open /Applications/Bruno.app
+shift + cmd - d : open /Applications/Google\ Chrome.app
+shift + cmd - m : open /Applications/Firefox\ Developer\ Edition.app
+shift + cmd - b : open /Applications/Microsoft\ Teams.app/
+
+shift + cmd - 1 : open https://trello.com/b/wWPKjvNd/tracking-sprint
+shift + cmd - 0 : open https://github.com/bring/recipient-portal
+shift + cmd - 9 : open https://github.com/bring/modify-business-delivery
+
+
