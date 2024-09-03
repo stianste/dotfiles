@@ -1,0 +1,24 @@
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	cp = cherry-pick
+	p = push
+	# p = push -u origin HEAD
+[core]
+	editor = vim
+	autocrlf = false
+[user]
+        name = Stian Steinbakken
+	email = stian.steinbakken@posten.no
+[secrets]
+	patterns = [01234567][0-9][01][0-9]{8}
+[pull]
+	rebase = false
+[init]
+	defaultBranch = main
+[blame]
+	ignoreRevsFile = .git-blame-ignore-revs
+[push]
+	autoSetupRemote = true
