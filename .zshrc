@@ -12,7 +12,6 @@ ZSH_THEME="agnoster"
 
 plugins=(
 	git vi-mode history-substring-search
-	zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -128,4 +127,6 @@ export PATH="/opt/homebrew/opt/python@3.9/libexec/bin/python:$PATH"
 # Run and start services
 skhd --start-service
 java21
-nvm use 20
+# nvm use 20
+
+eval "$(starship init zsh)"
