@@ -24,10 +24,10 @@ export GPG_TTY=$(tty)
 alias i='idea'
 alias npmci='rm -rf node_modules && npm install'
 alias npmsci='rm -rf node_modules package-lock.json && npm install'
+alias lint='source ~/lint.sh'
 
 alias s='source ~/.zshrc'
 alias z='vim ~/.zshrc'
-
 
 alias k3000='lsof -ti :3000 | xargs kill'
 alias k3001='lsof -ti :3001 | xargs kill'
@@ -41,6 +41,7 @@ export TERM=xterm-256color
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-11.0.11.jdk/Contents/Home
 
 export PATH=$PATH:$JAVA_HOME
+export PATH=$PATH:/Applications/IntelliJ\ IDEA.app/Contents/MacOS
 export PATH=$PATH:/opt/apache-maven-3.8.1/bin
 alias maven='/opt/homebrew/Cellar/maven/3.8.1/bin/mvn'
 
@@ -117,16 +118,11 @@ space() {
 # Misc
 alias speak-loud='python ~/projects/dotfiles/scripts/letter_emojies.py'
 
-### Python
-eval "$(pyenv init -)"
-pyenv global 3.9.15
-alias python='python3'
-#### Path
-export PATH="/opt/homebrew/opt/python@3.9/libexec/bin/python:$PATH"
-
 # Run and start services
 skhd --start-service
 java21
 # nvm use 20
 
 eval "$(starship init zsh)"
+
+source ~/posten.sh

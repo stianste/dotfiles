@@ -1,38 +1,38 @@
 set nocompatible
 filetype off
 
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-Plugin 'VundleVim/Vundle.vim'
+" set rtp+=~/.vim/bundle/Vundle.vim
+" call vundle"begin()
+" Plugin 'VundleVim/Vundle.vim'
 
 " ------Plugins-------
-Plugin 'scrooloose/nerdtree'
-Plugin 'ryanoasis/vim-devicons'
-Plugin 'tpope/vim-surround'
-Plugin 'jiangmiao/auto-pairs'
-Plugin 'kien/ctrlp.vim'
-Plugin 'SirVer/ultisnips'
-Plugin 'honza/vim-snippets'
-Plugin 'tomtom/tcomment_vim'
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
-Plugin 'airblade/vim-gitgutter'
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'easymotion/vim-easymotion'
-Plugin 'Yggdroot/indentLine'
+" Plugin 'scrooloose/nerdtree'
+" Plugin 'ryanoasis/vim-devicons'
+" Plugin 'tpope/vim-surround'
+" Plugin 'jiangmiao/auto-pairs'
+" Plugin 'kien/ctrlp.vim'
+" Plugin 'SirVer/ultisnips'
+" Plugin 'honza/vim-snippets'
+" Plugin 'tomtom/tcomment_vim'
+" Plugin 'vim-airline/vim-airline'
+" Plugin 'vim-airline/vim-airline-themes'
+" Plugin 'airblade/vim-gitgutter'
+" Plugin 'Valloric/YouCompleteMe'
+" Plugin 'easymotion/vim-easymotion'
+" Plugin 'Yggdroot/indentLine'
 
 " Color Themes
-Plugin 'flazz/vim-colorschemes'
-Plugin 'morhetz/gruvbox'
-Plugin 'tyrannicaltoucan/vim-quantum'
-
-call vundle#end()
+" Plugin 'flazz/vim-colorschemes'
+" Plugin 'morhetz/gruvbox'
+" Plugin 'tyrannicaltoucan/vim-quantum'
+" 
+" call vundle"end()
 
 "
 " Appearance related
 "
 
-colorscheme gruvbox" Tomorrow-Night-Eighties
+" colorscheme gruvbox" Tomorrow-Night-Eighties
 " Good alternatives: Monokai, gruvbox, quantum, Tomorrow-Night
 
 set background=dark "Setting dark mode
@@ -93,7 +93,7 @@ set incsearch
 set smartcase
 
 " Enable spell checking
-set spell spelllang=en_us
+" set spell spelllang=en_us
 
 "
 "Mappings
