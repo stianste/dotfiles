@@ -1,0 +1,15 @@
+set number
+set relativenumber
+
+" Use graphical line movements
+noremap j gj
+noremap k gk
+
+"
+"Mappings
+"
+nnoremap <SPACE> <Nop>
+let mapleader = ' '
+
+" Intellij
+set easymotion

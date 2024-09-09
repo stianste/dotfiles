@@ -37,6 +37,7 @@ ln -s ~/projects/dotfiles/.gitconfig ~/.gitconfig
 ln -s ~/projects/dotfiles/starship.toml ~/.config/starship.toml
 ln -s ~/projects/dotfiles/.tmux.conf ~/.tmux.conf
 ln -s ~/projects/dotfiles/scripts/lint.sh ~/lint.sh
+ln -s ~/projects/dotfiles/.ideavimrc ~/.ideavimrc
 
 # Manual steps
 # * Karabiner elements

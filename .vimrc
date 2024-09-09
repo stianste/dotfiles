@@ -25,7 +25,7 @@ filetype off
 " Plugin 'flazz/vim-colorschemes'
 " Plugin 'morhetz/gruvbox'
 " Plugin 'tyrannicaltoucan/vim-quantum'
-" 
+"
 " call vundle"end()
 
 "
@@ -80,7 +80,7 @@ set matchtime=2
 
 set ruler
 
-set list
+" set list
 set listchars=tab:▒░,trail:▓
 
 " Use graphical line movements
@@ -99,7 +99,8 @@ set smartcase
 "Mappings
 "
 
-let mapleader = ','
+nnoremap <SPACE> <Nop>
+let mapleader = ' '
 map <C-n> :NERDTreeToggle<CR>
 
 "
@@ -135,3 +136,4 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 " :UltiSnipsEdit split window.
 let g:UltiSnipsEditSplit="vertical"
+
